@@ -60,7 +60,6 @@ COUNT([Mental_Health_Lifestyle_Dataset.csv]) / TOTAL(COUNT([Mental_Health_Lifest
 📋 Worksheet Structure
 
 
-
 ---
 
 ⚡ Interactivity & Dashboard Actions
@@ -81,16 +80,6 @@ The workbook includes several dynamic Filter Actions to seamlessly cross-filter 
 ├── tableau/
 │   └── Mental_Health_Lifestyle_Analysis.twb   # Tableau Workbook containing worksheets and dashboards
 └── README.md                                 # Project documentation
-
-
-
-
-
-
-
-
-
-
 
 
 
