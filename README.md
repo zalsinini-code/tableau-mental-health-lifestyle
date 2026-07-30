@@ -75,14 +75,13 @@ The workbook includes several dynamic Filter Actions to seamlessly cross-filter 
 ---
 
 ## 📁 Repository Structure
-
+```text
 ├── data/
 │   └── Mental_Health_Lifestyle_Dataset.csv   # Primary CSV dataset downloaded from Kaggle
 ├── tableau/
 │   └── Mental_Health_Lifestyle_Analysis.twb   # Tableau Workbook containing worksheets and dashboards
 └── README.md                                 # Project documentation
 
----
 
 
 
