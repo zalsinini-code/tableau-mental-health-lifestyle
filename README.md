@@ -59,6 +59,19 @@ COUNT([Mental_Health_Lifestyle_Dataset.csv]) / TOTAL(COUNT([Mental_Health_Lifest
 ⚙️ Formatting: Displayed as a percentage (p0%) on pie/wedge visuals to show proportional distributions across gender and mental health conditions.
 📋 Worksheet Structure
 
+```markdown
+| 📊 Worksheet Name | 📈 Visual Type | 🧩 Primary Dimensions & Measures | 🎯 Key Purpose |
+| :--- | :--- | :--- | :--- |
+| **Stress Level Bar Chart** | Bar Chart | `Country`, `COUNT(Stress Level)` | Highlights the **Top 5 countries** with the highest counts of **High** stress levels. |
+| **Canada: Stress Level Vs Diet Type** | Bar Chart | `Diet Type`, `Stress Level`, `COUNT(Diet Type)` | Analyzes diet type distributions under high stress within Canada. |
+| **Canada: Stress Levels Vs Mental Health** | Pie Chart | `Gender`, `Mental Health Condition`, Proportional Ratio Calculation | Displays proportional ratios of mental health conditions broken down by gender for Canada. |
+| **Canada: Stress Levels Vs Sleep Hour Classifications** | Bar Chart | `Sleep Hours Classifications`, `Stress Level`, `COUNT(Dataset)` | Displays high stress counts against **Insufficient** vs **Sufficient** sleep in Canada. |
+| **Canada: Stress Levels Vs Work Hours** | Bar Chart | `Stress Level`, `COUNT(Work Hours per Week)` | Compares weekly work hour impacts across stress tiers in Canada. |
+| **India: Stress Level Vs Diet Type** | Bar Chart | `Diet Type`, `Stress Level`, `COUNT(Diet Type)` | Evaluates dietary habits relative to stress levels in the India region. |
+| **India: Stress Levels Vs Mental Health** | Pie Chart | `Gender`, `Mental Health Condition`, Proportional Ratio Calculation | Measures mental health conditions and gender proportions under high stress in India. |
+| **India: Stress Levels Vs Sleep Hour Classifications** | Bar Chart | `Sleep Hours Classifications`, `Stress Level`, `COUNT(Dataset)` | Analyzes sleep sufficiency vs high stress counts for India. |
+| **India: Stress Levels Vs Work Hours** | Bar Chart | `Stress Level`, `COUNT(Work Hours per Week)` | Highlights workload distribution across stress levels in India. |
+```
 
 ---
 
