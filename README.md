@@ -57,6 +57,7 @@ COUNT([Mental_Health_Lifestyle_Dataset.csv]) / TOTAL(COUNT([Mental_Health_Lifest
 ```
 ---
 ⚙️ Formatting: Displayed as a percentage (p0%) on pie/wedge visuals to show proportional distributions across gender and mental health conditions.
+
 📋 Worksheet Structure
 
 ```markdown
