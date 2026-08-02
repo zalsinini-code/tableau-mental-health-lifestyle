@@ -60,10 +60,9 @@ IF [Sleep Hours] < 6.4 THEN 'Insufficient'
 ELSEIF [Sleep Hours] > 6.4 THEN 'Sufficient'
 END
 ```
-<img width="1517" height="852" alt="Screenshot 2026-08-02 114909" src="https://github.com/user-attachments/assets/f8f3437e-736e-4b8a-8c1a-9ee6b0742d97" />
+<img width="1515" height="855" alt="Screenshot 2026-08-02 115334" src="https://github.com/user-attachments/assets/121f4b8d-7c03-42ad-a215-1d82b4065a71" />
 
-<img width="1517" height="857" alt="Screenshot 2026-08-02 115659" src="https://github.com/user-attachments/assets/ef0ca508-67af-42d2-9213-ca8a2325f483" />
-
+<img width="1517" height="857" alt="Screenshot 2026-08-02 115659" src="https://github.com/user-attachments/assets/55829540-7451-4ac0-b2d5-d34d81e3f014" />
 
 ---
 
