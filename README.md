@@ -48,7 +48,7 @@ Here are key visual slides from the Tableau Storytelling flow, showcasing the na
 
 ---
 ## 📊 Data Source
-* **Source:** [Kaggle](https://www.kaggle.com/datasets/atharvasoundankar/mental-health-and-lifestyle-habits-2019-2024)
+* **Source:** [Kaggle](https://www.kaggle.com/datasets/atharvasoundankar/mental-health-and-lifestyle-habits-2019-2024/data)
 * **📄 Dataset File:** `Mental_Health_Lifestyle_Dataset.csv`
 * **🔑 Key Fields:**
   * **🌐 Demographics / Geography:** `Country`, `Age`, `Gender`
