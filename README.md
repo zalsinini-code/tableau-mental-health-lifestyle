@@ -22,29 +22,29 @@ Here are key visual slides from the Tableau Storytelling flow, showcasing the na
 ### 1. 🌍 Global Stress Overview & Top Demographics
 > Explores high-stress distributions globally and highlights top impacted countries.
 
-<img width="1917" height="1078" alt="Screenshot 2026-08-02 140314" src="https://github.com/user-attachments/assets/1635abe4-7ce3-49f5-924d-f88dcd70a7b8" />
+<img width="1917" height="1078" alt="Slide1-global-overview" src="https://github.com/user-attachments/assets/c820fca0-c848-4849-8cd1-ee69f4406f38" />
 
 ---
 
 ### 2. 🇨🇦 Regional Deep Dive: Canada Profile
 > Breaks down Canada's high-stress groups by Diet Type, Sleep Sufficiency, and Work Hours vs. Mental Health conditions segmented by gender.
 
-<img width="1917" height="1078" alt="Screenshot 2026-08-02 140652" src="https://github.com/user-attachments/assets/1c2ad6d1-d973-479d-87a9-dfda7fe92247" />
+<img width="1917" height="1078" alt="slide1-Canada-overview" src="https://github.com/user-attachments/assets/1521a696-993f-447f-a259-4bfaee7cbebb" />
 
-<img width="1917" height="1078" alt="Screenshot 2026-08-02 140659" src="https://github.com/user-attachments/assets/ee50505a-1cd6-40c9-98f2-fb5d54906a71" />
+<img width="1917" height="1078" alt="slide2-Canada-overview" src="https://github.com/user-attachments/assets/5bdbdf4a-2154-44db-9178-8d2647534888" />
 
-<img width="1917" height="1078" alt="Screenshot 2026-08-02 140706" src="https://github.com/user-attachments/assets/4adece8c-d258-4078-b987-45953cfdd121" />
+<img width="1917" height="1078" alt="slide3-Canada-overview" src="https://github.com/user-attachments/assets/231bd3b1-6f64-4662-883d-3494c14638a5" />
 
 ---
 
 ### 3. 🇮🇳 Regional Deep Dive: India Profile
 > Analyzes stress triggers in India, contrasting sleep hour thresholds, work loads, and mental health proportions.
 
-<img width="1917" height="1078" alt="Screenshot 2026-08-02 135845" src="https://github.com/user-attachments/assets/886b69b1-876a-419d-806c-0befc0477a08" />
+<img width="1917" height="1078" alt="Slide1-India-overview" src="https://github.com/user-attachments/assets/2ae9d23c-ae32-4e1b-bb8c-05f3e49b97d7" />
 
-<img width="1917" height="1078" alt="Screenshot 2026-08-02 135859" src="https://github.com/user-attachments/assets/586af586-a6ff-48db-bdf2-f9866a9c480d" />
+<img width="1917" height="1078" alt="Slide2-India-overview" src="https://github.com/user-attachments/assets/847a879d-dd8b-4dd3-b016-7a763030313a" />
 
-<img width="1917" height="1078" alt="Screenshot 2026-08-02 135907" src="https://github.com/user-attachments/assets/1a4dbc80-a32b-4eab-9a94-3be49953ba56" />
+<img width="1917" height="1078" alt="Slide3-India-overview" src="https://github.com/user-attachments/assets/05416038-a88f-4c6b-9e7a-8f83d0428b7c" />
 
 ---
 ## 📊 Data Source
@@ -67,9 +67,10 @@ IF [Sleep Hours] < 6.4 THEN 'Insufficient'
 ELSEIF [Sleep Hours] > 6.4 THEN 'Sufficient'
 END
 ```
-<img width="1516" height="855" alt="Screenshot 2026-08-02 114857" src="https://github.com/user-attachments/assets/ebc7338c-9255-473a-9da6-74c770cd7e7a" />
+<img width="1516" height="855" alt="Sleep-Hours-Canada" src="https://github.com/user-attachments/assets/febeb879-33ee-417d-8c6c-687dcc4d1ff2" />
 
-<img width="1517" height="852" alt="Screenshot 2026-08-02 114909" src="https://github.com/user-attachments/assets/ae117ef8-126f-49cf-a501-e2927529ff32" />
+<img width="1517" height="852" alt="Sleep-Hours-India" src="https://github.com/user-attachments/assets/e81f29c7-0ed6-42b3-bad8-9fefc613ecc8" />
+
 
 ---
 
@@ -80,9 +81,9 @@ Calculates the relative percentage proportion of individuals within a given part
 ```tableau
 COUNT([Mental_Health_Lifestyle_Dataset.csv]) / TOTAL(COUNT([Mental_Health_Lifestyle_Dataset.csv]))
 ```
-<img width="1515" height="855" alt="Screenshot 2026-08-02 115334" src="https://github.com/user-attachments/assets/121f4b8d-7c03-42ad-a215-1d82b4065a71" />
+<img width="1515" height="855" alt="Stress-Level-India" src="https://github.com/user-attachments/assets/4395fbd4-49e2-4cae-a6bf-f9a1a8dcccdd" />
 
-<img width="1517" height="857" alt="Screenshot 2026-08-02 115659" src="https://github.com/user-attachments/assets/55829540-7451-4ac0-b2d5-d34d81e3f014" />
+<img width="1517" height="857" alt="Stress-Level-Canada" src="https://github.com/user-attachments/assets/54fd9f7d-8f5b-402c-b675-a93b3729b706" />
 
 ---
 ⚙️ Formatting: Displayed as a percentage (p0%) on pie/wedge visuals to show proportional distributions across gender and mental health conditions.
