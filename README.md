@@ -62,7 +62,8 @@ END
 ```
 <img width="1517" height="852" alt="Screenshot 2026-08-02 114909" src="https://github.com/user-attachments/assets/f8f3437e-736e-4b8a-8c1a-9ee6b0742d97" />
 
-<img width="1516" height="855" alt="Screenshot 2026-08-02 114857" src="https://github.com/user-attachments/assets/600fc2c4-a900-4b72-a01f-85d1412e2f74" />
+<img width="1517" height="857" alt="Screenshot 2026-08-02 115659" src="https://github.com/user-attachments/assets/ef0ca508-67af-42d2-9213-ca8a2325f483" />
+
 
 ---
 
