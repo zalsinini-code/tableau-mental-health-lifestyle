@@ -22,7 +22,7 @@ Here are key visual slides from the Tableau Storytelling flow, showcasing the na
 ### 1. 🌍 Global Stress Overview & Top Demographics
 > Explores high-stress distributions globally and highlights top impacted countries.
 
-<img width="1917" height="1078" alt="Screenshot 2026-08-02 135112" src="https://github.com/user-attachments/assets/a942c286-3f26-461d-a75c-0096ac6e5ce2" />
+<img width="1917" height="1078" alt="Screenshot 2026-08-02 140314" src="https://github.com/user-attachments/assets/1635abe4-7ce3-49f5-924d-f88dcd70a7b8" />
 
 ---
 
