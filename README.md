@@ -128,3 +128,10 @@ The workbook includes several dynamic Filter Actions to seamlessly cross-filter 
 ├── tableau/
 │   └── Mental_Health_Lifestyle_Analysis.twb   # Tableau Workbook containing worksheets and dashboards
 └── README.md                                 # Project documentation
+```
+---
+## 🚀 How to View the Project
+
+* **Interactive Version (Recommended):** View and interact with the full storytelling dashboard on [Tableau Public](https://public.tableau.com/).
+* **Local Version:** Download `tableau/Mental_Health_Lifestyle_Analysis.twb` from this repository and open it using **Tableau Desktop** or the free **Tableau Reader**.
+---
