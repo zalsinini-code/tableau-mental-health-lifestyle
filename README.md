@@ -36,8 +36,11 @@ Here are key visual slides from the Tableau Storytelling flow, showcasing the na
 ### 3. 🇮🇳 Regional Deep Dive: India Profile
 > Analyzes stress triggers in India, contrasting sleep hour thresholds, work loads, and mental health proportions.
 
-![India Analysis](assets/slide3-india-analysis.png)
+<img width="1917" height="1078" alt="Screenshot 2026-08-02 135845" src="https://github.com/user-attachments/assets/886b69b1-876a-419d-806c-0befc0477a08" />
 
+<img width="1917" height="1078" alt="Screenshot 2026-08-02 135859" src="https://github.com/user-attachments/assets/586af586-a6ff-48db-bdf2-f9866a9c480d" />
+
+<img width="1917" height="1078" alt="Screenshot 2026-08-02 135907" src="https://github.com/user-attachments/assets/1a4dbc80-a32b-4eab-9a94-3be49953ba56" />
 
 ---
 ## 📊 Data Source
