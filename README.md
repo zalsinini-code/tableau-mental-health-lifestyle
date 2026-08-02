@@ -29,7 +29,11 @@ Here are key visual slides from the Tableau Storytelling flow, showcasing the na
 ### 2. 🇨🇦 Regional Deep Dive: Canada Profile
 > Breaks down Canada's high-stress groups by Diet Type, Sleep Sufficiency, and Work Hours vs. Mental Health conditions segmented by gender.
 
-![Canada Analysis](assets/slide2-canada-analysis.png)
+<img width="1917" height="1078" alt="Screenshot 2026-08-02 140652" src="https://github.com/user-attachments/assets/1c2ad6d1-d973-479d-87a9-dfda7fe92247" />
+
+<img width="1917" height="1078" alt="Screenshot 2026-08-02 140659" src="https://github.com/user-attachments/assets/ee50505a-1cd6-40c9-98f2-fb5d54906a71" />
+
+<img width="1917" height="1078" alt="Screenshot 2026-08-02 140706" src="https://github.com/user-attachments/assets/4adece8c-d258-4078-b987-45953cfdd121" />
 
 ---
 
