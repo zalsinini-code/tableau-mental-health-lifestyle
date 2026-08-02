@@ -60,9 +60,9 @@ IF [Sleep Hours] < 6.4 THEN 'Insufficient'
 ELSEIF [Sleep Hours] > 6.4 THEN 'Sufficient'
 END
 ```
-<img width="1515" height="855" alt="Screenshot 2026-08-02 115334" src="https://github.com/user-attachments/assets/121f4b8d-7c03-42ad-a215-1d82b4065a71" />
+<img width="1516" height="855" alt="Screenshot 2026-08-02 114857" src="https://github.com/user-attachments/assets/ebc7338c-9255-473a-9da6-74c770cd7e7a" />
 
-<img width="1517" height="857" alt="Screenshot 2026-08-02 115659" src="https://github.com/user-attachments/assets/55829540-7451-4ac0-b2d5-d34d81e3f014" />
+<img width="1517" height="852" alt="Screenshot 2026-08-02 114909" src="https://github.com/user-attachments/assets/ae117ef8-126f-49cf-a501-e2927529ff32" />
 
 ---
 
@@ -73,9 +73,9 @@ Calculates the relative percentage proportion of individuals within a given part
 ```tableau
 COUNT([Mental_Health_Lifestyle_Dataset.csv]) / TOTAL(COUNT([Mental_Health_Lifestyle_Dataset.csv]))
 ```
-<img width="1515" height="855" alt="Screenshot 2026-08-02 115334" src="https://github.com/user-attachments/assets/21a5c79f-fe59-415f-9915-160709b81717" />
+<img width="1515" height="855" alt="Screenshot 2026-08-02 115334" src="https://github.com/user-attachments/assets/121f4b8d-7c03-42ad-a215-1d82b4065a71" />
 
-<img width="1510" height="853" alt="Screenshot 2026-08-02 115355" src="https://github.com/user-attachments/assets/19fb2662-b2ec-4887-8fff-a94eb403401f" />
+<img width="1517" height="857" alt="Screenshot 2026-08-02 115659" src="https://github.com/user-attachments/assets/55829540-7451-4ac0-b2d5-d34d81e3f014" />
 
 ---
 ⚙️ Formatting: Displayed as a percentage (p0%) on pie/wedge visuals to show proportional distributions across gender and mental health conditions.
