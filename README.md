@@ -9,30 +9,45 @@ This project explores the relationship between various lifestyle factors—such 
 
 ---
 
-## 1. 📁 Data Source
-* **File Name:** `Mental_Health_Lifestyle_Dataset.csv`
-* **Fields & Metadata:**
-  * `Country` *(String / Categorical)*
-  * `Age` *(Integer)*
-  * `Gender` *(String)*
-  * `Exercise Level` *(String)*
-  * `Diet Type` *(String - e.g., Balanced, Vegetarian, Vegan, Keto, Junk Food)*
-  * `Sleep Hours` *(Float / Continuous)*
-  * `Stress Level` *(String - High, Moderate, Low)*
-  * `Mental Health Condition` *(String)*
-  * `Work Hours per Week` *(Integer)*
-  * `Screen Time per Day (Hours)` *(Float)*
-  * `Social Interaction Score` *(Float)*
-  * `Happiness Score` *(Float)*
+## 🎨 Design & Visualization Tools
+* **📊 Tableau Desktop:** Used for data analysis, calculated fields, dynamic parameters, chart creation, interactive filtering, and crafting the final **Storytelling** experience.
+* **🎨 Adobe Illustrator:** Used to design custom, sleek dashboard background layouts, custom containers, and UI framing elements to enhance clarity, aesthetic appeal, and flow across the storytelling slides.
+
+---
+
+## 🖼️ Storytelling Highlights
+
+Here are key visual slides from the Tableau Storytelling flow, showcasing the narrative driven by data:
+
+### 1. 🌍 Global Stress Overview & Top Demographics
+> Explores high-stress distributions globally and highlights top impacted countries.
+
+![Global Overview](assets/slide1-global-overview.png)
+
+---
+
+### 2. 🇨🇦 Regional Deep Dive: Canada Profile
+> Breaks down Canada's high-stress groups by Diet Type, Sleep Sufficiency, and Work Hours vs. Mental Health conditions segmented by gender.
+
+![Canada Analysis](assets/slide2-canada-analysis.png)
+
+---
+
+### 3. 🇮🇳 Regional Deep Dive: India Profile
+> Analyzes stress triggers in India, contrasting sleep hour thresholds, work loads, and mental health proportions.
+
+![India Analysis](assets/slide3-india-analysis.png)
+
 
 ---
 ## 📊 Data Source
-* ** Source:** [Kaggle](https://www.kaggle.com/)
+* **Source:** [Kaggle](https://www.kaggle.com/datasets/atharvasoundankar/mental-health-and-lifestyle-habits-2019-2024)
 * **📄 Dataset File:** `Mental_Health_Lifestyle_Dataset.csv`
 * **🔑 Key Fields:**
   * **🌐 Demographics / Geography:** `Country`, `Age`, `Gender`
   * **🏃 Lifestyle Indicators:** `Exercise Level`, `Diet Type`, `Sleep Hours`, `Work Hours per Week`, `Screen Time per Day (Hours)`, `Social Interaction Score`, `Happiness Score`
   * **💔 Mental Health Indicators:** `Stress Level`, `Mental Health Condition`
+
 ---
 
 ## 🧮 Calculated Fields & Formulas
@@ -45,6 +60,9 @@ IF [Sleep Hours] < 6.4 THEN 'Insufficient'
 ELSEIF [Sleep Hours] > 6.4 THEN 'Sufficient'
 END
 ```
+<img width="1517" height="852" alt="Screenshot 2026-08-02 114909" src="https://github.com/user-attachments/assets/f8f3437e-736e-4b8a-8c1a-9ee6b0742d97" />
+
+<img width="1516" height="855" alt="Screenshot 2026-08-02 114857" src="https://github.com/user-attachments/assets/600fc2c4-a900-4b72-a01f-85d1412e2f74" />
 
 ---
 
@@ -55,6 +73,10 @@ Calculates the relative percentage proportion of individuals within a given part
 ```tableau
 COUNT([Mental_Health_Lifestyle_Dataset.csv]) / TOTAL(COUNT([Mental_Health_Lifestyle_Dataset.csv]))
 ```
+<img width="1515" height="855" alt="Screenshot 2026-08-02 115334" src="https://github.com/user-attachments/assets/21a5c79f-fe59-415f-9915-160709b81717" />
+
+<img width="1510" height="853" alt="Screenshot 2026-08-02 115355" src="https://github.com/user-attachments/assets/19fb2662-b2ec-4887-8fff-a94eb403401f" />
+
 ---
 ⚙️ Formatting: Displayed as a percentage (p0%) on pie/wedge visuals to show proportional distributions across gender and mental health conditions.
 
@@ -89,6 +111,10 @@ The workbook includes several dynamic Filter Actions to seamlessly cross-filter 
 
 ## 📁 Repository Structure
 ```text
+├── assets/                                   # Dashboard screenshots for README presentation
+│   ├── slide1-global-overview.png
+│   ├── slide2-canada-analysis.png
+│   └── slide3-india-analysis.png
 ├── data/
 │   └── Mental_Health_Lifestyle_Dataset.csv   # Primary CSV dataset downloaded from Kaggle
 ├── tableau/
